@@ -1,11 +1,13 @@
+import SectionContainer from "./_partials/SectionContainer";
+
 export default function ComingSoon() {
   return (
-    <main className="bg-light-100">
-      <div className="h-screen w-screen flex items-center justify-center">
-        <div className="font-bold text-dark-700 text-lg font-mono">
-          Coming Soon!
+    <SectionContainer padding="xl">
+      <main className="flex-grow flex flex-row items-center justify-center p-4">
+        <div className="font-mono font-medium text-dark-700 text-lg">
+          We Are Coming Soon!
         </div>
-      </div>
-    </main>
+      </main>
+    </SectionContainer>
   );
 }
