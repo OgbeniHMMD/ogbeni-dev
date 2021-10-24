@@ -17,9 +17,7 @@ export default function DefaultLayout(props) {
       <main className="min-h-screen flex flex-col justify-between bg-light-50">
         <NavigationBar />
 
-        <main className="flex-grow h-full flex flex-col  py-4">
-          {props.children}
-        </main>
+        <main className="flex-grow h-full flex flex-col">{props.children}</main>
 
         <FooterCopyRight />
       </main>

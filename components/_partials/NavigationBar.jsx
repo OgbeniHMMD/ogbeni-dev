@@ -11,9 +11,9 @@ export default function NavigationBar() {
         </section>
       </nav>
 
-      <SectionContainer size="lg">
+      <SectionContainer padding="sm" shade="dark">
         <section className="w-full flex justify-between items-center space-x-2">
-          <div>OgbeniHMMD</div>
+          <div className="font-medium font-mono text-3xl">&#128483;</div>
 
           <div className="flex space-x-4">
             <div>Link 1</div>

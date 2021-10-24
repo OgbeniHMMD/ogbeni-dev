@@ -1,20 +1,27 @@
 export default function SectionContainer(props) {
   const paddings = {
     none: "p-0",
-    xs: "p-1",
-    sm: "p-2",
-    md: "p-4",
-    lg: "p-6",
-    xl: "p-8",
-    "2xl": "p-12",
+    xs: "px-2 py-1 lg:py-2",
+    sm: "px-2 py-3 lg:py-6",
+    md: "px-2 py-6 lg:py-12",
+    lg: "px-2 py-12 lg:py-20",
+    xl: "px-2 py-20 lg:py-36",
+    "2xl": "px-2 py-28 lg:py-48",
   };
-  let classes = paddings[props.padding || "md"];
+
+  const shades = {
+    none: "bg-transparent",
+    white: "bg-white",
+    light: "bg-light-50",
+    dark: "bg-dark-50 text-white",
+  };
+
+  const padding = paddings[props.padding || "md"];
+  const shade = shades[props.shade || "light"];
 
   return (
-    <section className="container mx-auto p-1">
-      <div
-        className={`bg-white text-sm text-dark-200 border rounded ${classes}`}
-      >
+    <section className={`text-sm text-dark-200 border-t ${shade}`}>
+      <div className={`container mx-auto px-2 ${padding}`}>
         {props.children}
       </div>
     </section>
