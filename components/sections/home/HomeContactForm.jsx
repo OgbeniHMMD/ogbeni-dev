@@ -1,9 +1,9 @@
-import SectionContainer from "../../_partials/SectionContainer";
+import SectionContainer from "../../SectionContainer";
 
 export default function HomeContactForm() {
   return (
     <SectionContainer shade="white" padding="xl">
-      <div className="w-screen-lg mx-auto">
+      <div id="contact" className="max-w-screen-lg mx-auto">
         <h1 className="text-center text-lg font-medium uppercase tracking-wide pb-8">
           Get in touch
         </h1>
@@ -15,13 +15,13 @@ export default function HomeContactForm() {
             />
           </div>
           <section className="w-full md:flex md:space-x-4 lg:space-x-8">
-            <div className="w-1/2 pb-4 lg:pb-8">
+            <div className="md:w-1/2 pb-4 lg:pb-8">
               <input
                 placeholder="E-mail"
                 className="w-full border rounded p-4"
               />
             </div>
-            <div className="w-1/2 pb-4 lg:pb-8">
+            <div className="md:w-1/2 pb-4 lg:pb-8">
               <input
                 placeholder="Phone"
                 className="w-full border rounded p-4"

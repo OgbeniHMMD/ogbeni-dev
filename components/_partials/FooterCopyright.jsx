@@ -1,8 +1,8 @@
-import SectionContainer from "./SectionContainer";
+import SectionContainer from "../SectionContainer";
 
 export default function FooterCopyRight() {
   return (
-    <SectionContainer padding="md">
+    <SectionContainer shade="light" padding="md">
       <section className="text-dark-50 text-center">
         <div className="tracking-tracking-wider pb-2">
           Copyright &copy; 2021 -

@@ -1,4 +1,4 @@
-import SectionContainer from "../_partials/SectionContainer";
+import SectionContainer from "../SectionContainer";
 
 export default function ComingSoon() {
   return (
