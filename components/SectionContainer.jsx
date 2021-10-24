@@ -10,9 +10,9 @@ export default function SectionContainer(props) {
   };
 
   const shades = {
-    none: "bg-transparent",
-    white: "bg-white",
-    light: "bg-light-50",
+    none: "bg-transparent text-dark-200",
+    white: "bg-white text-dark-200",
+    light: "bg-light-50 text-dark-200",
     dark: "bg-dark-50 text-white",
   };
 
@@ -20,7 +20,7 @@ export default function SectionContainer(props) {
   const shade = shades[props.shade || "light"];
 
   return (
-    <section className={`text-sm text-dark-200 border-t ${shade}`}>
+    <section className={`text-sm border-t ${shade}`}>
       <div className={`container mx-auto px-2 ${padding}`}>
         {props.children}
       </div>
