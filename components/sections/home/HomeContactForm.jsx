@@ -35,7 +35,10 @@ export default function HomeContactForm() {
             />
           </div>
           <div className="pb-4">
-            <button className="border rounded text-sm px-6 py-4">
+            <button
+              className="border rounded text-sm hover:bg-light-50 cursor-not-allowed px-6 py-4"
+              title="NOT IMPLEMENTED"
+            >
               Send Message
             </button>
           </div>
