@@ -2,7 +2,7 @@ import SectionContainer from "../SectionContainer";
 
 export default function TopSocialMediaLink() {
   return (
-    <SectionContainer padding="none" shade="light">
+    <SectionContainer padding="xs" shade="light">
       <section className="w-full flex justify-end items-center space-x-4 px-1">
         <a href="https://github.com/OgbeniHMMD" className="p-1">
           <svg
