@@ -21,7 +21,12 @@ export default function SectionContainer(props) {
   const shade = shades[props.shade || "light"];
 
   return (
-    <section className={`text-sm border-t ${shade}`}>
+    <section
+      className={`text-sm border-t ${shade}`}
+      style={{
+        backgroundImage: `url(${props.texture})`,
+      }}
+    >
       <div className={`container mx-auto px-2 ${padding}`}>
         {props.children}
       </div>

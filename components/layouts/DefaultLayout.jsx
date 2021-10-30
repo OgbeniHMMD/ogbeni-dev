@@ -15,7 +15,7 @@ export default function DefaultLayout(props) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col min-h-screen bg-light-50 justify-between">
+      <main className="flex flex-col font-body min-h-screen bg-light-50 justify-between">
         {/* <TopSocialMediaLink />
         <NavigationBar /> */}
 
