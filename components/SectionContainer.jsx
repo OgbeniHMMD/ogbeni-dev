@@ -7,6 +7,7 @@ export default function SectionContainer(props) {
     lg: "px-2 py-12 lg:py-20",
     xl: "px-2 py-20 lg:py-36",
     "2xl": "px-2 py-28 lg:py-48",
+    "3xl": "px-2 py-36 lg:py-64",
   };
 
   const shades = {

@@ -15,11 +15,11 @@ export default function DefaultLayout(props) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="min-h-screen flex flex-col justify-between bg-light-50">
-        <TopSocialMediaLink />
-        <NavigationBar />
+      <main className="flex flex-col min-h-screen bg-light-50 justify-between">
+        {/* <TopSocialMediaLink />
+        <NavigationBar /> */}
 
-        <main className="flex-grow h-full flex flex-col">{props.children}</main>
+        <main className="flex-grow flex flex-col h-full">{props.children}</main>
         <FooterCopyRight />
       </main>
     </>
