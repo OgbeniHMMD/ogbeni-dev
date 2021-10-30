@@ -15,7 +15,7 @@ export default function Home() {
       <StickyGithubIcon />
       <HomeIntroSection />
       <HomeSkillsSection />
-      <HomeProjectSection />
+      {/* <HomeProjectSection /> */}
       <HomeContactForm />
     </DefaultLayout>
   );
