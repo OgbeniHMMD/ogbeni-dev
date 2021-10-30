@@ -17,8 +17,9 @@ function MyApp({ Component, pageProps }) {
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
-          crossOrigin={true}
+          crossOrigin="true"
         />
+        {/* eslint-disable-next-line @next/next/no-page-custom-font */}
         <link
           href="https://fonts.googleapis.com/css2?family=Sen&family=Rampart+One&family=Space+Mono&display=swap"
           rel="stylesheet"
