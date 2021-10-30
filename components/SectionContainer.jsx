@@ -26,6 +26,7 @@ export default function SectionContainer(props) {
       style={{
         backgroundImage: `url(${props.texture})`,
       }}
+      id={props.id}
     >
       <div className={`container mx-auto px-2 ${padding}`}>
         {props.children}

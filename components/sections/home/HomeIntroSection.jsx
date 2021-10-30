@@ -17,7 +17,7 @@ export default function HomeIntroSection() {
 
         <div className="flex justify-center">
           <a
-            href="#contact"
+            href="#skills"
             className="bg-white border rounded-full border-light-900 p-2 animate-bounce hover:border-dark-900"
           >
             <svg
