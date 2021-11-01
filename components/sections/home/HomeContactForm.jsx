@@ -22,7 +22,7 @@ export default function HomeContactForm() {
     });
 
     await axios
-      .post("http://ogbeni.herokuapp.com/misc/contact", data)
+      .post("https://ogbeni.herokuapp.com/misc/contact", data)
       .then((res) => {
         reset();
         setResponse({
@@ -33,7 +33,9 @@ export default function HomeContactForm() {
       .catch((e) => {
         setResponse({
           error: true,
-          message: e?.response?.data?.message,
+          message:
+            e?.response?.data?.message ||
+            "An error occurred while sending your message, please check your internet connection and try again.",
         });
       })
       .finally(() => {
