@@ -10,7 +10,7 @@ export default function FooterCopyRight() {
             href="https://twitter.com/ogbenihmmd"
             className="font-medium underline-dark-50 hover:underline"
           >
-            @OgbeniHMMD
+            OgbeniHMMD
           </a>
         </div>
         <div className="font-mono text-sm">
