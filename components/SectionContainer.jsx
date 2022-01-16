@@ -13,7 +13,7 @@ export default function SectionContainer(props) {
   const shades = {
     none: "bg-transparent text-dark-200",
     white: "bg-white text-dark-200",
-    light: "bg-light-50 text-dark-200",
+    light: "bg-light-200 text-dark-200",
     dark: "bg-dark-50 text-white",
   };
 

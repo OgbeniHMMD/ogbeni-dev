@@ -96,8 +96,7 @@ export default function HomeContactForm() {
           <div className="pb-4">
             <button
               type="submit"
-              className="border rounded text-sm py-4 px-6 hover:bg-light-50"
-              title="NOT IMPLEMENTED"
+              className="border rounded text-sm py-4 px-6 hover:bg-light-500"
             >
               {response.sending ? "Sending Message..." : "Send Message"}
             </button>
