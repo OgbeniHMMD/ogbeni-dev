@@ -44,7 +44,7 @@ export default function HomeSkillsSection() {
       <h1 className="font-medium text-center text-lg tracking-wide pb-8 uppercase lg:pb-16">
         Skills &amp; Tools
       </h1>
-      <div className="flex flex-wrap gap-8 justify-center items-end md:space-y-0">
+      <div className="flex gap-8 items-end overflow-x-auto md:justify-center">
         {tools.map((tool) => (
           <a
             href={tool.url}
@@ -52,7 +52,7 @@ export default function HomeSkillsSection() {
             title={tool.title}
             target="_blank"
             rel="noreferrer"
-            className="p-2 group"
+            className="min-w-16 p-2 group"
           >
             <img
               key={tool.title}
